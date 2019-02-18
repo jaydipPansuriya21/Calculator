@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		
+.FormStyle{
+margin: auto;
+width: 300px;
+background-color:	gray	 ;
+opacity: 0.8;	
+border-radius: 20px;
+	border: 5px solid black ;
+}
+#answer , .clear{
+	width: 195px;
+	
+	
+}
+input{
+	width: 62px;
+    height: 50px;
+    color: white;
+    font-size: large;
+    font-weight: 100;
+    background-color: #87CEFA	
+}
+.fun{
+	background-color: black;
+}
+.Name{
+	position: fixed;
+	top: 85%;
+	right: 0%;
+	color: white;
+	font-size: 25px;
+	font-family: Century;
+	border: 2px dashed black;
+	padding: 10px;
+}/*
+.ditag{
+text-align: center;
+
+}*/
+	</style>
+
+
+
+
+
+</head>
+<body bgcolor="#008080">
+<!-- <h1 class="Name"> By Jaydip Pansuriya</h1>
+ -->
+<!-- <center> -->
+<!-- 	<div class="ditag">
+ --><form class = "FormStyle" name="myform" id="myformId">
+<p align="center">
+
+<input type="text" name="answer" id="answer" style="background-color: white;color: black">	<br><br>
+
+<input type="button" value=" 1 " onclick="myformId.answer.value += '1'"> 
+<input type="button" value=" 2 " onclick="myformId.answer.value += '2'"> 
+<input type="button" value=" 3 " onclick="myformId.answer.value += '3'"> <br><br>
+
+<input type="button" value=" 4 " onclick="myform.answer.value += '4'"> 
+<input type="button" value=" 5 " onclick="myform.answer.value += '5'"> 
+<input type="button" value=" 6 " onclick="myform.answer.value += '6'"> <br><br>
+
+<input type="button" value=" 7 " onclick="myform.answer.value += '7'"> 
+<input type="button" value=" 8 " onclick="myform.answer.value += '8'"> 
+<input type="button" value=" 9 " onclick="myform.answer.value += '9'"> <br><br>
+
+<input type="button" value=" * " onclick="myform.answer.value += '*'" class="fun"> 
+<input type="button" value=" 0 " onclick="myform.answer.value += '0'"> 
+<input type="button" value=" + " onclick="myform.answer.value += '+'" class="fun"> <br><br>
+
+<input type="button" value=" - " onclick="myform.answer.value += '-'" class="fun"> 
+<input type="button" value=" / " onclick="myform.answer.value += '/'" class="fun"> 
+<input type="button" value=" = " onclick="myform.answer.value = eval(myform.answer.value)" class="fun"> <br><br>
+<input type="button" value="Clear Last" onclick="myform.answer.value = myform.answer.value.substring(0,myform.answer.value.length-1) " class="clear"><br><br>
+<input type="button" value="Clear All" onclick="myform.answer.value =  ' '" class="clear"> <br><br>
+ 
+</p>
+ 
+
+</form>
+<!-- </center> -->	
+<!-- </div> -->
+</body>
+<!-- <script type="text/javascript">
+	
+function display(it){
+if(it.value == " Clear All " ){
+document.form["myform"]["answer"].value =" "; 
+}
+if(it.value ==  " = "){
+document.form["myform"]["answer"].value = eval(form["myform"]["answer"].value); 
+}
+
+var input = it.value;
+document.form["myform"]["answer"].value + = input; 
+}
+
+
+</script> -->
+</html>
